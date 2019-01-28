@@ -13,16 +13,16 @@ $(document).ready(function() {
 });
 
 function loadForm(){
-	$("#register").load("register.php"); 
-	$("#manageProduct").load("manageProduct.php"); 
-	$("#sellProduct").load("sellProduct.php"); 
-	$("#sendJob").load("sendJob.php"); 
-	$("#report").load("report.php"); 
-	$("#revenue").load("revenue.php"); 
-	$("#navigator").load("navigator.php");
-	$("#navigator_mobile").load("navigator_mobile.php");
-	$("#productAmountModal").load("productAmountModal.php");
-	$("#userListModal").load("userListModal.php");
+	$("#register").load("register.html"); 
+	$("#manageProduct").load("manageProduct.html"); 
+	$("#sellProduct").load("sellProduct.html"); 
+	$("#sendJob").load("sendJob.html"); 
+	$("#report").load("report.html"); 
+	$("#revenue").load("revenue.html"); 
+	$("#navigator").load("navigator.html");
+	$("#navigator_mobile").load("navigator_mobile.html");
+	$("#productAmountModal").load("productAmountModal.html");
+	$("#userListModal").load("userListModal.html");
 
 	setTimeout(function(){ setupPage() }, 200);
 }
